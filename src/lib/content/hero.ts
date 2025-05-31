@@ -1,5 +1,5 @@
 // src/lib/content/hero.ts
-import { HeroSectionType } from '@/lib/types/sections';
+import { HeroSectionType } from '../types';
 
 // Content for the hero section.
 export const heroSection: HeroSectionType = {

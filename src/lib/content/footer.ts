@@ -1,5 +1,5 @@
 // src/lib/content/footer.ts
-import { FooterSectionType } from '@/lib/types/sections';
+import { FooterSectionType } from '../types';
 
 const currentYear = new Date().getFullYear();
 

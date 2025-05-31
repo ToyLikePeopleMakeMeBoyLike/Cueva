@@ -1,5 +1,5 @@
 // src/lib/content/navbar.ts
-import { NavbarSectionType } from '@/lib/types/sections';
+import { NavbarSectionType } from '../types';
 
 export const navbarSection: NavbarSectionType = {
   platformName: 'StreamUX', // Same as in platform.ts or your chosen name

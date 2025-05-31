@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 // import { getFadeUpAnimation, getSectionAnimation } from '@/styles/animations'; // To be created later
 // import { Wrapper, Icon } from '@/components'; // To be created later
-import { footerSection } from '@/lib/content/footer';
+import { footerSection } from '../../lib/content/footer';
 
 // Placeholder for Wrapper component
 const Wrapper = ({ children, as: Component = 'div', ...props }: any) => <Component {...props}>{children}</Component>;

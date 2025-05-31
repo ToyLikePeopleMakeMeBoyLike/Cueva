@@ -1,7 +1,7 @@
 // src/components/ui/VideoCard.tsx
 'use client';
 
-// import { VideoType } from '@/lib/types'; // VideoType will be fully defined later
+import { VideoType } from '../../lib/types';
 // import { getFadeLeftAnimation } from '@/styles/animations'; // To be created later
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -10,18 +10,6 @@ import { FiPlayCircle, FiClock, FiTag } from 'react-icons/fi'; // Assuming react
 
 // Placeholder for getFadeLeftAnimation
 const getFadeLeftAnimation = { initial: { opacity: 0, x: -20 }, animate: { opacity: 1, x: 0 }, transition: { duration: 0.5 } };
-
-// Temporary VideoType for props definition until global types are set up
-type VideoTypeProps = {
-  id: string;
-  name: string;
-  description: string;
-  img: string; // Thumbnail URL
-  genre: string[];
-  duration: string;
-  url: string; // Frontend URL to the watch page e.g. /watch/[videoId]
-  tags?: string[];
-};
 
 const VideoCard = ({
   id,
@@ -32,7 +20,7 @@ const VideoCard = ({
   duration,
   url,
   tags,
-}: VideoTypeProps) => { // Using temporary VideoTypeProps
+}: VideoType) => { // Using global VideoType
   return (
     <motion.div
       {...getFadeLeftAnimation}

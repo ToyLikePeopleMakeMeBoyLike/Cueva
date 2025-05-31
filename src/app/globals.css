@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example of defining a custom utility or more complex background for bg-torch if needed */
+/*
+.bg-torch {
+  background: radial-gradient(circle, rgba(255,235,59,0.6) 0%, rgba(10,25,47,0) 60%);
+  Applying this class would give a radial gradient torch effect.
+  Ensure the color 'torch' in tailwind.config.js is then perhaps a fallback or not used directly if this is preferred.
+}
+*/
+
+/* Basic body styling (can be extended) */
+body {
+  @apply bg-background-primary text-text-primary;
+  /* This applies the primary background and text colors from your tailwind.config.js theme */
+}
+
+/* Add any other global styles or custom component base styles here */
+/* For example, you might define custom heading styles if not fully handled by Tailwind utilities */
+/*
+.heading-primary {
+  @apply text-4xl font-bold text-accent;
+}
+.heading-secondary {
+  @apply text-2xl font-semibold text-text-primary;
+}
+*/

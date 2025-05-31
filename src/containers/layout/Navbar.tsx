@@ -7,8 +7,8 @@ import Link from 'next/link'; // For internal navigation
 // import NextLink from 'next/link'; // Used for Button component, aliased if Button is a custom component that takes 'as' prop
 
 // Content imports
-import { navbarSection } from '@/lib/content/navbar';
-import { platform } from '@/lib/content/platform'; // For platform name if not in navbarSection
+import { navbarSection } from '../../lib/content/navbar';
+import { platform } from '../../lib/content/platform'; // For platform name if not in navbarSection
 
 // Icon imports (assuming react-icons is or will be a dependency)
 import { MdClose } from 'react-icons/md';

@@ -1,5 +1,5 @@
 // src/lib/content/featured-videos.ts
-import { FeaturedVideosSectionType } from '@/lib/types/sections';
+import { FeaturedVideosSectionType } from '../types';
 
 // Content for the featured videos section.
 export const featuredVideosSection: FeaturedVideosSectionType = {

@@ -1,5 +1,5 @@
 // src/lib/content/platform.ts
-import { PlatformConfig } from '@/lib/types';
+import { PlatformConfig } from '../types';
 
 // Array of keywords for SEO.
 const keywords = [

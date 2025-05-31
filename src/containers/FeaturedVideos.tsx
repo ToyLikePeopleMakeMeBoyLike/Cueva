@@ -2,7 +2,7 @@
 'use client';
 
 // import { VideoCard, Wrapper } from '@/components'; // VideoCard and Wrapper will be created later
-import { featuredVideosSection } from '@/lib/content/featured-videos';
+import { featuredVideosSection } from '../lib/content/featured-videos';
 // import { getSectionAnimation } from '@/styles/animations'; // getSectionAnimation will be created later
 import { motion } from 'framer-motion';
 

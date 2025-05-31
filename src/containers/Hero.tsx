@@ -1,7 +1,7 @@
 // src/containers/Hero.tsx
 'use client';
 
-import { heroSection } from '@/lib/content/hero';
+import { heroSection } from '../lib/content/hero';
 // The following imports are placeholders for components that will be created later or assumed to exist
 // For now, we'll create simplified versions or stubs if these components are critical for Hero.tsx to be valid.
 // import { CTA, ShowLottie, Wrapper } from '@/components';
